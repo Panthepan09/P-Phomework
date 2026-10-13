@@ -1,0 +1,188 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Isometra&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: Isometra;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+        }
+
+        nav {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 25px;
+    font-size: 18px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+nav a:hover {
+    background-color: darkred;
+    border-radius: 4px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    background-color: black;
+    border-radius: 4px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+        .video {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .video video {
+            width: 100%;
+            max-width: 600px;
+        }
+
+        h1 {
+            color: orange;
+            font-size: 40px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        p {
+            color: white;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .f {
+            max-width: 600px;
+            margin: 30px auto;
+            text-align: left;
+            color: white;
+        }
+
+        .f h2 {
+            color: #e2b041;
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .f ul {
+            line-height: 1.8;
+            font-size: 16px;
+        }
+
+        .f li strong {
+            color: #e2b041;
+        }
+
+        .np {
+            text-align: right;
+            max-width: 800px;
+            margin: 40px auto 20px auto;
+            padding-right: 20px;
+        }
+
+        .npp {
+            display: inline-block;
+            background-color: darkred;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+
+        .npp:hover {
+            background-color: #e2b041;
+            color: black;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+            border-top: 1px solid #383144;
+            color: #888888;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+
+        <a href="index.html">Home</a >
+        <a href="About.html">About</a >
+
+    <div class="dropdown">
+            <a href="Gameplay.html">Gameplay</a >
+        <div class="dropdown-content">
+            <a href="Inspiration.html">Inspiration</a >
+            <a href="Gametype.html">Game Type</a >
+        </div>
+    </div>
+
+        <a href="Characters.html">Characters</a >
+            <audio controls src="silksong.mp4"></audio>
+        </div>
+    </nav>
+
+    <h1>Welcome to the Weavers' Den</h1>
+    <p>Explore the vast and haunted kingdom of Pharloom</p>
+
+    <div class="video">
+        <video controls autoplay loop muted>
+            <source src='video.mp4' type="video/mp4">
+        </video>
+
+        <div class="f">
+            <h2>Game Features</h2>
+            <ul>
+                <li><strong>A Kingdom Out of Control:</strong>Travel through Pharloom's different regions, meet its strange inhabitants, and uncover hidden secrets.</li>
+                <li><strong>Fast-Paced Combat:</strong>Fight enemies with needle, quick movement, and powerful combos.</li>
+                <li><strong>Tools and Upgrades:</strong>Find and craft tools to help you fight enemies.</li>
+            </ul>
+        </div>
+
+        <div class="np">
+            <a href="About.html" class="npp">Next:About team cherry&rarr;</a>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 Hollow Knight: Silksong Web Project | ICS3U
+        </p>
+        </footer>
+    </div>
+</body>
+</html>

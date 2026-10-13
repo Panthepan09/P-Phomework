@@ -1,0 +1,189 @@
+<!doctype html>
+<html>
+<head> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Isometra&display=swap" rel="stylesheet">  
+
+    <style>
+        *{
+            font-family:Isometra;
+        }
+        body {
+        margin: 0;
+        padding: 0;
+        background-color:#1a1a1a;
+        }
+        nav {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 25px;
+    font-size: 18px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+nav a:hover {
+    background-color: darkred;
+    border-radius: 4px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    background-color: black;
+    border-radius: 4px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+        .video{
+        text-align: center;
+        margin: 20px 0;
+        }
+        .video video {
+         width: 600px;
+         }
+        .link {
+        color: #e2b041;
+        text-decoration: none;
+        }
+        .link:hover {
+        text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+            border-top: 1px solid #383144;
+            color: #888888;
+            font-size: 14px;
+        }
+</style>
+</head>
+<body>
+    <nav>
+
+        <a href="index.html">Home</a >
+        <a href="About.html">About</a >
+
+    <div class="dropdown">
+            <a href="Gameplay.html">Gameplay</a >
+        <div class="dropdown-content">
+            <a href="Inspiration.html">Inspiration</a >
+            <a href="Gametype.html">Game Type</a >
+        </div>
+    </div>
+
+        <a href="Characters.html">Characters</a >
+            <audio controls src="silksong.mp4"></audio>
+        </div>
+    </nav>
+<div class="header" style="text-align: center; margin-top: 30px;">
+    <img src="logo.webp" alt="Team Cherry Logo" style="width: 80px; height: 80px; border-radius: 50%; margin-bottom: 10px;">
+    
+    <h1 style="color:#e2b041; font-size: 32px; margin-bottom: 5px;">Story about Team Cherry</h1>
+    <div class="video">
+    <video controls autoplay loop muted>
+        <source src='dance.mp4' type="video/mp4">
+        </video>
+</div>
+<div style="color:white;">
+    <h2 style="color:#e2b041;">The Origin: Three Members & Kickstarter</h2>
+    <p style="color:white;">
+        Team Cherry was originally founded by three core members—Ari Gibson, William Pellen, and Jack Vine.
+    </p>
+    <div style="display: flex; gap: 15px; margin-bottom: 15px;">
+        <img src="three.png" alt="Team Cherry Founders" style="width:800px; border-radius: 6px;display:block; margin:0 auto;">
+    </div>
+    <p style="color:white;">
+        When starting their first game, <i>Hollow Knight</i>, they used <a href="https://www.kickstarter.com/projects/11662585/hollow-knight" target="_blank" class="link">Kickstarter</a> to fund.
+    </p>
+    <p style="color:white;">
+        During the campaign, they set a series of stretch goals. When reaching the $56,000 milestone, they promised a 2nd playable character. That exact goal became the origin of <i>Hollow Knight: Silksong</i>.
+    </p>
+    <div style="margin-top: 15px;">
+        <img src="goals.png" alt="Stretch Goals" style="width:550px; ">
+    </div>
+
+<div class="story2" style="color:white;">
+    <h2 style="color:#e2b041;">The Evolution & The Long Wait</h2>
+    
+    <div class="s2i" style="margin-bottom: 15px;">
+        <img src="k.jpg" alt="Hollow Knight" style="width:750px; border-radius: 6px;">
+    </div>
+
+   <p style="color:white">
+        After <i>Hollow Knight</i> surpassed 15 million sales, Team Cherry began working on a DLC. In February 2019, they officially announced it had evolved into a full standalone sequel: <i>Silksong</i>.
+    </p>
+    <p style="color:white">
+        The playable demo at E3 2019 looked polished and near-complete. However, repeated delays pushed the game back—from the Xbox showcase in 2022 all the way to September 2025.
+    </p>
+
+    <p style="color:white">
+        Despite the agonizing wait, fans kept faith in Team Cherry, keeping <i>Silksong</i> locked firmly at the #1 spot on the Steam Wishlist for years.
+    </p>
+    <div class="s2.2" style="margin-top: 15px; margin-bottom: 15px;">
+        <img src="wish.png" alt="Steam Wishlist #1" style="width:750px; border-radius: 6px;">
+    </div>
+
+    <p style="color:white">
+        During the silence, the community created iconic memes that sustained them, such as <i>"I'm so lucky to be able to play Silksong right after finishing Hollow Knight!"</i>
+    </p>
+</div>
+<div class="s3" style="color:white">
+    <h2 style="color:#e2b041;">The Launch: Steam Crash</h2>
+    
+    <p style="color:white">
+        When <i>Silksong</i> finally launched, the massive wave of players instantly overwhelmed the servers, causing Steam to crash and leaving countless fans stuck on the checkout screen, unable to play.
+    </p>
+
+    <div class="s3i" style="margin-bottom: 15px;">
+        <img src="steam.png" alt="Steam Crash" style="width:850px; border-radius: 6px;">
+    </div>
+
+    <p style="color:white">
+        True to their style, Team Cherry refused to send out early review copies. They wanted every player to experience the game completely blind at the same time—free from media scores, spoilers, or pre-made guides.
+    </p>
+</div>
+<div class="story4" style="color:white">
+    <h2 style="color:#e2b041;">The Future: Sea of Sorrow & PAX Australia</h2>
+    
+    <p style="color:white">
+        Looking ahead, Team Cherry announced an upcoming free DLC titled <i>Sea of Sorrow</i>, scheduled to release sometime within 2026.
+    </p>
+    <div class="s4i" style="margin-bottom: 15px;">
+        <img src="sos.webp" alt="Sea of Sorrow DLC" style="width:900px; border-radius: 6px;">
+    </div>
+
+    <p style="color: white">
+        Knowing Team Cherry's track record with deadlines, we can probably expect a few delays—lol. However, just a couple of days ago, Team Cherry confirmed their appearance at PAX Australia, marking their first public appearance and news regarding <i>Sea of Sorrow</i>. Let's hope for some good news!
+    </p>
+</div>
+    <div class="s4i2" style="margin-bottom: 15px;">
+        <img src="sk.webp" alt="shaw" style="width:400px; border-radius: 6px;">
+    </div>
+<footer>
+            <p>&copy; 2026 Hollow Knight: Silksong Web Project | ICS3U</p>
+        </footer>
+</div>
+</body>
+</html>
